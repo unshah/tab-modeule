@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+}
+table {
+  border-collapse: collapse;
+}
+th {
+  text-align: center;
+  padding: 1em 3em;
+  border-style: solid;
+}
+th:hover {
+  background-color: black;
+  color: white;
+  border: 3px solid black;
+}
+th:focus {
+  background-color: black;
+  color: white;
+}
+td {
+  padding: 4em;
+  text-align: center;
+  border-style: solid;
+}
+.active {
+  background-color: black;
+  color: white;
+  border: 3px solid black;
+}
